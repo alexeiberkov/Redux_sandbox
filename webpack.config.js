@@ -8,7 +8,10 @@ let loadersSetup = [
             plugins: ['transform-runtime'],
             presets: ["es2015", "stage-0", "react"]//[['es2015', { modules: false }], 'stage-3'],
         }
-    }
+    },
+    {
+      loader: 'eslint-loader'
+    },
 ];
 
 module.exports = {
