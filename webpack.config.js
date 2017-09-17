@@ -1,5 +1,6 @@
 var path = require('path');
 var webpack = require('webpack');
+var NpmInstallPlugin = require('npm-install-webpack-plugin');
 
 let loadersSetup = [
     {
@@ -40,7 +41,8 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NamedModulesPlugin(),
     // prints more readable module names in the browser console on HMR updates
-    new webpack.NoEmitOnErrorsPlugin()
+    new webpack.NoEmitOnErrorsPlugin(),
+    new NpmInstallPlugin()
   ],
   module: {
         rules: [
