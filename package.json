@@ -1,5 +1,5 @@
 {
-  "name": "redux",
+  "name": "redux_sandbox",
   "version": "1.0.0",
   "description": "Redux sandbox project",
   "main": "index.js",
@@ -19,6 +19,7 @@
     "eslint": "^4.7.0",
     "eslint-loader": "^1.9.0",
     "eslint-plugin-react": "^7.3.0",
+    "npm-install-webpack-plugin": "4.0.5",
     "webpack": "^3.5.6",
     "webpack-dev-server": "^2.8.1"
   },
@@ -27,6 +28,8 @@
     "babel-runtime": "^6.26.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-hot-loader": "^3.0.0-beta.7"
+    "react-hot-loader": "^3.0.0-beta.7",
+    "react-redux": "5.0.6",
+    "redux": "3.7.2"
   }
 }
